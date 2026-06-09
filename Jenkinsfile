@@ -80,7 +80,7 @@ pipeline {
                         """
                     } */
                     sh """
-                        docker build -t catalogue:${appVersion}
+                        docker build -t catalogue:${appVersion} .
                     """
                 } 
                   
